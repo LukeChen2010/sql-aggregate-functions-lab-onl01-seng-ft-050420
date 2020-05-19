@@ -1,11 +1,11 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT name FROM students ORDER BY gpa DESC
+  SELECT name FROM students ORDER BY gpa DESC LIMIT 1;
 end
 
 def lowest_student_gpa
-  SELECT name FROM students ORDER BY gpa ASC
+  SELECT name FROM students ORDER BY gpa ASC LIMIT 1;
 end
 
 def average_student_gpa
